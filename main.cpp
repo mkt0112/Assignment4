@@ -5,9 +5,7 @@
 #include <string>
 #include <stdlib.h>
 #include <ctime>
-
 using namespace std;
-
 // below codes are for Q1
 class DATA
 {
@@ -282,13 +280,9 @@ void open4()
             cin >> nameOfWitness;
             cout << "\n";
         }
-        cout << "Car data found:" << endl;
-        cout << "Vehicle Number: " << foundPerson.vehicleNumber << endl;
-        cout << "First Name: " << foundPerson.firstName << endl;
-        cout << "Last Name: " << foundPerson.lastName << endl;
-        cout << "Age: " << foundPerson.age << endl;
-        cout << "Gender: " << foundPerson.gender << endl;
-        cout << "Address: " << foundPerson.address << endl;
+        cout << "Car data found:" << endl<< "Vehicle Number: " << foundPerson.vehicleNumber << endl;
+        cout << "First Name: " << foundPerson.firstName << endl<< "Last Name: " << foundPerson.lastName << endl;;
+        cout << "Age: " << foundPerson.age << endl<< "Gender: " << foundPerson.gender << endl<< "Address: " << foundPerson.address << endl;
         if (seconds % 2 == 0)
         {
             cout << "\nThis car is invloved in accident..." << endl;
